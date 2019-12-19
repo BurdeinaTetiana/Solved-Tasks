@@ -23,3 +23,12 @@ return 0;
   return n * m - 1;
 }
 ```
+### Training JS #1: create your first JS function and print "Helloworld!"
+https://www.codewars.com/kata/training-js-number-1-create-your-first-js-function-and-print-helloworld/solutions/javascript/me/best_practice
+```javascript
+function helloWorld(){
+var str = "Hello World!";
+console.log(str);
+  return str;
+}
+```
