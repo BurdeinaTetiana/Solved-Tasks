@@ -1,5 +1,16 @@
 # Solved-Tasks
-Beginner - Lost Without a Map
-Parse nice int from char problem
-Simple Fun #1: Seats in Theater
-Type of sum
+### Convert a string to an array
+https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
+```javascript
+function stringToArray(string){
+  return string.split(' ');
+}
+```
+### Type of sum
+https://www.codewars.com/kata/5a2e9ae2b6cfd7692a0000ba
+```javascript
+function typeOfSum(a, b) {
+  return typeof(a + b);
+}
+```
+
