@@ -13,4 +13,13 @@ function typeOfSum(a, b) {
   return typeof(a + b);
 }
 ```
-
+### Breaking chocolate problem
+https://www.codewars.com/kata/534ea96ebb17181947000ada/solutions/javascript/me/best_practice
+```javascript
+function breakChocolate(n,m) {
+if ( n <= 0 || m <= 0 ) {
+return 0;
+}
+  return n * m - 1;
+}
+```
