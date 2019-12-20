@@ -32,3 +32,51 @@ console.log(str);
   return str;
 }
 ```
+###Training JS #2: Basic data types--Number
+https://www.codewars.com/kata/571edd157e8954bab500032d
+```javascript
+var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
+function equal1(){
+  var a=v1;
+  var b=v1;
+  return a+b;
+}
+//Please refer to the example above to complete the following functions
+function equal2(){
+  var a=v3;   //set number value to a
+  var b=v1;   //set number value to b
+  return a-b;
+}
+function equal3(){
+  var a=v1;   //set number value to a
+  var b=v5;   //set number value to b
+  return a*b;
+}
+function equal4(){
+  var a=v4;   //set number value to a
+  var b=v5;   //set number value to b
+  return a/b;
+}
+function equal5(){
+  var a=v6;   //set number value to a
+  var b=v3;   //set number value to b
+  return a%b;
+}
+```
+###Find the position!
+https://www.codewars.com/kata/5808e2006b65bff35500008f/solutions/javascript/me/best_practice
+```javascript
+function position(letter){
+let str = ' abcdefghijklmnopqrstuvwxyz';
+return "Position of alphabet: " + str.indexOf(letter);
+}
+```
+###Grasshopper - Make change
+https://www.codewars.com/kata/560dab9f8b50f89fd6000070
+```javascript
+let money = 10;
+let candy = 1.42;
+let chips = 2.40;
+let soda  = 1;
+let change = money - candy - chips - soda;
+```
