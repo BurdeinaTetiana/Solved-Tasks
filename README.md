@@ -80,3 +80,10 @@ let chips = 2.40;
 let soda  = 1;
 let change = money - candy - chips - soda;
 ```
+### Beginner Series #2 Clock
+https://www.codewars.com/kata/beginner-series-number-2-clock/solutions/javascript/me/best_practice
+```javascript
+function past(h, m, s){
+  return ((h*3600)+(m*60)+s)*1000;
+}
+```
