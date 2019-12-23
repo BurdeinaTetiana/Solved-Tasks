@@ -87,3 +87,13 @@ function past(h, m, s){
   return ((h*3600)+(m*60)+s)*1000;
 }
 ```
+### I love you, a little , a lot, passionately ... not at all
+https://www.codewars.com/kata/i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all
+function howMuchILoveYou(nbPetals) {
+    let choices = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+    let times = (nbPetals-1) % 6;
+    return choices[times];
+}
+```javascript
+
+```
