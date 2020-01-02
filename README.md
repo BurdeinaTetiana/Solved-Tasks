@@ -96,7 +96,14 @@ function howMuchILoveYou(nbPetals) {
     return choices[times];
 }
 ```
-
+### Find the Slope
+https://www.codewars.com/kata/55a75e2d0803fea18f00009d
+```javascript
+function slope(points){
+  if(points[2]-points[0] === 0) {return 'undefined'}
+  else{ return String((+ points[3]-points[1]) / (points[2]-points[0]))}
+}
+```
 
 
 
