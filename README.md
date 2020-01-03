@@ -104,8 +104,20 @@ function slope(points){
   else{ return String((+ points[3]-points[1]) / (points[2]-points[0]))}
 }
 ```
-
-
+### Sum of angles
+https://www.codewars.com/kata/5a03b3f6a1c9040084001765
+```javascript
+function angle(n) {
+  return 180*(n-2);
+}
+```
+### Third Angle of a Triangle
+https://www.codewars.com/kata/5a023c426975981341000014
+```javascript
+function otherAngle(a, b) {
+  return 180-(a+b);
+}
+```
 
 
 
