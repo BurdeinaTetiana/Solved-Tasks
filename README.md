@@ -149,3 +149,23 @@ function arraysSimilar(arr1, arr2) {
   return JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
 }
 ```
+### Calculate Price Excluding VAT
+https://www.codewars.com/kata/5890d8bc9f0f422cf200006b
+```javascript
+function excludingVatPrice(price){
+    let prodPr = 0;
+    if ( price === null ) {
+        return -1;
+    } else {
+        prodPr = (100 * price)/115;
+        return +prodPr.toFixed(2);
+    }
+}
+```
+### Remove First and Last Character
+https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
+```javascript
+function removeChar(str){
+ return str.substring(1, str.length-1);
+};
+```
