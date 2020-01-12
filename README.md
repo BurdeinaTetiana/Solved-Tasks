@@ -169,3 +169,37 @@ function removeChar(str){
  return str.substring(1, str.length-1);
 };
 ```
+### Convert number to reversed array of digits
+Convert number to reversed array of digits
+```javascript
+function digitize(n) {
+  const str = n.toString();
+  const arr = [];
+  for(let i = str.length - 1; i >= 0; i--){
+    arr.push(+str[i])
+  }
+  return arr;
+}
+```
+### What's up next?
+https://www.codewars.com/kata/542ebbdb494db239f8000046
+```javascript
+function nextItem(xs, item) {
+let isFound = false;  
+  for (let el of xs) {
+    if (isFound) return el;
+    if (el == item) isFound = true;
+  }
+ } 
+```
+### Remove exclamation marks
+https://www.codewars.com/kata/57a0885cbb9944e24c00008e
+```javascript
+function removeExclamationMarks(s) {
+let str ='';
+for (let el of s ){
+if (el !== '!')str += el;
+}
+  return str;
+}
+```
