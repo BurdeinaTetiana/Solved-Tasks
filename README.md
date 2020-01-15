@@ -203,3 +203,45 @@ if (el !== '!')str += el;
   return str;
 }
 ```
+### Removing Elements
+https://www.codewars.com/kata/5769b3802ae6f8e4890009d2
+```javascript
+function removeEveryOther(arr){
+const res =[];
+for (let i=0; i< arr.length; i++){
+if(i%2 === 0) res.push(arr[i])
+}
+return res;//your code here
+}
+```
+### Powers of 2
+https://www.codewars.com/kata/57a083a57cb1f31db7000028
+```javascript
+function powersOfTwo(n){
+  const arr = [];
+  for(let i = 0; i <= n; i++) {
+    arr.push(Math.pow(2,i))
+  }
+  return arr;
+}
+```
+### Keep up the hoop
+https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145
+```javascript
+function hoopCount (n) {
+   return n > 9 ?
+     "Great, now move on to tricks" :
+     "Keep at it until you get it";
+}
+```
+### Sum of positive
+https://www.codewars.com/kata/5715eaedb436cf5606000381
+```javascript
+function positiveSum(arr) {
+sum = 0;
+  for( let i = 0; i < arr.length; i++){
+   arr[i] > 0 ? sum += arr[i]: sum += 0;
+ }
+  return sum;
+}
+```
