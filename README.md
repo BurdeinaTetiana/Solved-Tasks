@@ -245,3 +245,46 @@ sum = 0;
   return sum;
 }
 ```
+### Super Duper Easy
+https://www.codewars.com/kata/55a5bfaa756cfede78000026
+```javascript
+function problem(x){
+  if (typeof x == "string"){
+    return "Error";
+  }else{
+    return x * 50 + 6;
+  }
+}
+```
+### Fix the Bugs (Syntax) - My First Kata
+https://www.codewars.com/kata/56aed32a154d33a1f3000018
+```javascript
+function myFirstKata(a,b) {
+  if (typeof(a)=== "number" && typeof(b) ==="number") {
+    return (a % b) + (b % a);
+  } else {
+   return false;
+  } 
+}
+```
+### Chuck Norris VII - True or False? (Beginner)
+https://www.codewars.com/kata/570669d8cb7293a2d1001473
+```javascript
+function ifChuckSaysSo(){
+ return 1 < 0;
+}
+```
+### Convert a Number to a String!
+https://www.codewars.com/kata/5265326f5fda8eb1160004c8/solutions/javascript
+```javascript
+function numberToString(num) {
+  return num.toString();
+}
+```
+### Convert a Boolean to a String
+https://www.codewars.com/kata/551b4501ac0447318f0009cd
+```javascript
+function booleanToString(b){
+  return String(b);
+}
+```
