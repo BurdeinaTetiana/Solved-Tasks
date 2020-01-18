@@ -288,3 +288,78 @@ function booleanToString(b){
   return String(b);
 }
 ```
+### Sum The Strings
+https://www.codewars.com/kata/5966e33c4e686b508700002d
+```javascript
+function sumStr(a,b) {
+  return (+a+ +b)+''  
+}
+```
+### Convert a String to a Number!
+https://www.codewars.com/kata/544675c6f971f7399a000e79
+```javascript
+var stringToNumber = function(str){
+  
+  return +str;
+}
+```
+### Filling an array (part 1)
+https://www.codewars.com/kata/571d42206414b103dc0006a1
+```javascript
+function arr(n){
+  const arrA = [];
+  for( let i = 0; i< n; i++){
+    arrA.push(i);
+  }
+  return arrA;
+}
+```
+### Count the Monkeys!
+https://www.codewars.com/kata/56f69d9f9400f508fb000ba7
+```javascript
+function monkeyCount(n) {
+const arr = [];
+  for( let i = 1; i <=n; i++){
+    arr.push(i);
+  }
+    return arr;
+}
+```
+### Total amount of points
+https://www.codewars.com/kata/5bb904724c47249b10000131
+```javascript
+function points(games) {
+ let count = 0;
+ for (i = 0; i<games.length; i++){
+ let arr = games[i].split(':');
+ let x = +arr[0];
+ let y = +arr[1];
+   if (x > y) count += 3;
+   else if ( x === y) count+= 1;
+   }
+     return count;
+ }
+```
+### A Needle in the Haystack
+https://www.codewars.com/kata/56676e8fabd2d1ff3000000c
+```javascript
+function findNeedle(arr) {
+  for( let i = 0; i < arr.length; i++){
+    if(arr[i] === 'needle')
+      return `found the needle at position ${i}`
+  }
+}
+```
+### Hex to Decimal
+https://www.codewars.com/kata/57a4d500e298a7952100035d
+```javascript
+function hexToDec(hexString){
+  return Number.parseInt(hexString, 16);
+}
+```
+### Bin to Decimal
+https://www.codewars.com/kata/57a5c31ce298a7e6b7000334
+```javascript
+const  binToDec = bin => Number.parseInt(bin, 2);  
+```
+
