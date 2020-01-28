@@ -362,4 +362,113 @@ https://www.codewars.com/kata/57a5c31ce298a7e6b7000334
 ```javascript
 const  binToDec = bin => Number.parseInt(bin, 2);  
 ```
+### Parse float
+https://www.codewars.com/kata/57a386117cb1f31890000039
+```javascript
+function parseF(s) {
+  return isNaN(Number.parseFloat(s)) ? null : Number.parseFloat(s);
+}
+```
+
+### No zeros for heros
+https://www.codewars.com/kata/570a6a46455d08ff8d001002
+```javascript
+function noBoringZeros(n) {
+  // if (n === 0) return 0;
+   let str = n + '';
+   return +str.replace(/0+$/,'');
+
+}
+```
+### Factorial
+https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc
+```javascript
+function factorial(n) {
+console.log(n);
+if(n < 0 || n >=22) throw  RangeError;
+f = 1; i = 1;
+  while ( i <= n) {
+  f *= i;
+  i++;
+  }
+  return f;
+}
+```
+### Convert boolean values to strings 'Yes' or 'No'.
+https://www.codewars.com/kata/53369039d7ab3ac506000467
+```javascript
+function boolToWord( bool ){
+  return bool ? 'Yes' : 'No';
+}
+```
+### Super Duper Easy
+https://www.codewars.com/kata/55a5bfaa756cfede78000026
+```javascript
+function problem(x){
+  return (typeof x === 'number') ? x * 50 + 6 : 'Error';
+}
+```
+### Square(n) Sum
+https://www.codewars.com/kata/515e271a311df0350d00000f
+```javascript
+function squareSum(numbers){
+ return numbers.reduce((sum , el) => sum + el * el,0);
+}
+```
+### Calculate average
+https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
+```javascript
+function find_average(array) {
+  let sum = 0;
+  for( let i = 0; i < array.length; i++){
+  sum = sum + array[i];
+  }
+  let avg = sum / array.length;
+  return avg;
+}
+```
+### Tail Swap
+https://www.codewars.com/kata/5868812b15f0057e05000001
+```javascript
+function tailSwap(arr) {
+  let arr0 = arr[0].split(':');
+let arr1 = arr[1].split(':');
+return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
+}
+```
+### How good are you really?
+https://www.codewars.com/kata/5601409514fc93442500010b
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+let sum = 0;
+for(let i = 0; i < classPoints.length; i++){
+  sum = sum + classPoints[i];
+}
+  let avg = sum / classPoints.length;
+  return yourPoints > avg;
+}
+```
+### Discover The Original Price
+https://www.codewars.com/kata/552564a82142d701f5001228
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  return +(discountedPrice * 100 / (100 - salePercentage)).toFixed(2);
+}
+```
+### Formatting decimal places #0
+https://www.codewars.com/kata/5641a03210e973055a00000d
+```javascript
+function twoDecimalPlaces(n) {
+  return +n.toFixed(2);
+}
+```
+### Area of a Square
+https://www.codewars.com/kata/5748838ce2fab90b86001b1a
+```javascript
+function squareArea(A){
+  let r = (2 * A)/ Math.PI;
+  let area = (r * r).toFixed(2);
+  return +area;
+ }
+```
 
