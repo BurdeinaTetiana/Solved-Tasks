@@ -471,4 +471,24 @@ function squareArea(A){
   return +area;
  }
 ```
-
+### How many times should I go?
+https://www.codewars.com/kata/57efcb78e77282f4790003d8
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
+```
+### How many times should I go?
+https://www.codewars.com/kata/57efcb78e77282f4790003d8
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
+```
+### Return the closest number multiple of 10
+https://www.codewars.com/kata/58249d08b81f70a2fc0001a4
+```javascript
+const closestMultiple10 = num => {
+  return (num / 10).toFixed(0) * 10;;
+};
+```
