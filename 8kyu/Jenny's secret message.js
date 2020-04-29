@@ -1,0 +1,10 @@
+//https://www.codewars.com/kata/55225023e1be1ec8bc000390
+//Jenny's secret message
+
+function greet(name){
+    if(name === "Johnny"){
+        return "Hello, my love!";
+    }else{
+        return "Hello, " + name + "!";
+    }
+}
